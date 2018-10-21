@@ -3,6 +3,8 @@
 }
 
 html {
-  background: #018DED url(https://picsum.photos/1500/1000/?image=922&blur=true);
+  background: #222 url(https://picsum.photos/1500/1000/?image=922&blur=true);
   background-size: cover;
+  height: 100%;
+  width: 100%;
 }
