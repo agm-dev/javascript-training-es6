@@ -1,0 +1,8 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background: #018DED url(https://picsum.photos/1500/1000/?image=922&blur=true);
+  background-size: cover;
+}
