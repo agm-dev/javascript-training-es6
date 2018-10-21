@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Scoped CSS Variables and JS</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <h2>Update CSS Variables with <span class='hl'>JS</span></h2>
+
+  <div class="controls">
+    <label for="letter-spacing">Letter Spacing:</label>
+    <input id="letter-spacing" type="range" name="letter-spacing" min="1" max="20" value="1" data-sizing="px">
+
+    <label for="font-size">Font Size:</label>
+    <input id="font-size" type="range" name="font-size" min="20" max="50" value="20" data-sizing="px">
+
+
+    <label for="base">Base Color</label>
+    <input id="base" type="color" name="base" value="#193549">
+
+    <label for="secondary">Secondary Color</label>
+    <input id="secondary" type="color" name="secondary" value="#ffc600">
+  </div>
+
+  <div class="content">
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tortor nunc, rhoncus in elit vel, feugiat porta libero. Pellentesque iaculis convallis ligula, vitae volutpat lacus tempor ac. Phasellus mi odio, finibus sit amet urna commodo, pretium mattis nulla. Nullam mattis lectus arcu, tristique pharetra lectus consequat eget. Aenean venenatis sit amet massa vel accumsan. Quisque molestie tortor quis turpis tristique, vitae efficitur ipsum auctor. Cras non vulputate turpis. Sed placerat sem sed eros tincidunt, quis placerat arcu pharetra. Aliquam libero massa, consectetur nec iaculis vitae, facilisis eu tortor. Integer placerat sit amet mauris et consequat. Morbi nec augue lectus. Sed condimentum purus volutpat pharetra ornare. Cras eget lorem sed arcu aliquet dictum. Sed vehicula purus et pulvinar feugiat. Mauris eu consequat quam, sit amet convallis eros.</p>
+
+    <p>Maecenas purus risus, ultricies sed dui sed, fringilla viverra dui. Fusce vestibulum pretium nisi viverra posuere. Nulla facilisi. Nunc ultrices augue ante, at iaculis enim efficitur nec. In non vestibulum leo. Donec sodales ullamcorper neque, a venenatis diam maximus at. Vestibulum vehicula commodo purus id imperdiet. Sed sed mollis mauris. Nunc dignissim gravida euismod. Etiam ac justo at erat tincidunt bibendum. Quisque egestas diam a diam vestibulum tincidunt. Pellentesque sed odio risus. Donec venenatis, orci lacinia tristique eleifend, felis augue faucibus ipsum, eu malesuada tellus mauris volutpat eros. Pellentesque eleifend egestas diam, ac euismod sapien malesuada bibendum. Vivamus posuere leo ac ex interdum maximus.</p>
+
+    <p>Donec eu molestie libero. Quisque venenatis mauris a orci laoreet, in mattis lacus blandit. Sed vitae risus leo. Phasellus congue aliquam orci at semper. Quisque a ornare tortor, aliquam facilisis dolor. Phasellus ac felis mollis, efficitur urna id, rutrum nibh. Nulla sed consequat quam. Pellentesque feugiat vitae nunc ut aliquet. Aenean suscipit sem in lacus pellentesque, vel finibus nisi sollicitudin. Nullam tempor diam purus, quis ultrices tortor pharetra ultricies. Aliquam venenatis leo in tempus volutpat. Donec tincidunt, augue quis ornare molestie, quam nibh rhoncus nunc, ac laoreet nunc elit vel dui. Maecenas ultrices elit in tincidunt sollicitudin. Aliquam et commodo risus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Proin turpis est, fringilla sed urna id, viverra porttitor massa.</p>
+
+    <p>Nunc id nibh viverra, egestas nunc eget, aliquam nibh. Donec et pellentesque magna. Vivamus at ante enim. Nulla consequat vestibulum augue, eu pellentesque velit. Vivamus iaculis risus et massa aliquet viverra. Sed facilisis sed ante ut lacinia. Duis hendrerit luctus velit, eget rutrum risus commodo in. Nullam sed tempor nulla.</p>
+
+    <p>Donec sit amet magna purus. Vestibulum efficitur facilisis justo, sit amet rhoncus lectus placerat at. Nullam scelerisque consectetur lorem, vitae accumsan lectus gravida ut. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vestibulum eget tellus ut nulla sollicitudin dapibus et ac mauris. Nam finibus, massa a molestie posuere, sem nibh tempus purus, eget tempus lectus orci id tortor. Donec lobortis rutrum maximus. Morbi vehicula, risus finibus vehicula dignissim, mi mauris laoreet lectus, nec tempus eros lorem vel mauris.</p>
+  </div>
+
+  <script type="text/javascript" src="assets/js/main.js"></script>
+
+</body>
+</html>
