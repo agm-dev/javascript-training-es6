@@ -70,3 +70,25 @@ img {
   width: 100%;
   height: auto;
 }
+
+.card-animation::before, .card-animation::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  transform: scale3d(0, 0, 1);
+  transition: transform .3s ease-out 0s;
+  background: rgba(255, 255, 255, 0.1);
+  content: '';
+  pointer-events: none;
+}
+.card-animation::before {
+  transform-origin: left top;
+}
+.card-animation::after {
+  transform-origin: right bottom;
+}
+.card-animation:hover::before, .card-animation:hover::after, .card-animation:focus::before, .card-animation:focus::after {
+  transform: scale3d(1, 1, 1);
+}
