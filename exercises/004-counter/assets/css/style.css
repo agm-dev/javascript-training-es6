@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'RedDeadRedemption';
+  src: url('../fonts/rdr2-font.ttf');
+}
+
+html {
+  background: #e22 url('../img/rdr2.jpg');
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+  font-family: 'RedDeadRedemption'
+}
