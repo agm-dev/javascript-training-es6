@@ -1,3 +1,7 @@
+:root {
+  --background-soft: #EEE;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -7,4 +11,62 @@ html {
   background-size: cover;
   height: 100%;
   width: 100%;
+}
+
+body {
+  font-family: monospace;
+  font-size: 20px;
+}
+
+.page-title {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.exercises-list {
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 0 2em;
+}
+
+.exercises-list__item {
+  flex: 0 1 24%;
+}
+
+a, a:active, a:visited {
+  text-decoration: none;
+}
+
+.exercise-card {
+  position: relative;
+  box-shadow: 5px 5px 20px 1px rgba(50,50,50,0.75);
+  margin-bottom: 2em;
+}
+
+.exercise-card__number {
+  position: absolute;
+  background-color: var(--background-soft);
+  left: 10px;
+  top: 10px;
+  width: 35px;
+  height: 35px;
+  border-radius: 25%;
+  padding: 6px 13px;
+}
+
+.exercise-card__title {
+  background-color: var(--background-soft);
+  /*padding: 20px;*/
+  padding: 1.4em;
+  min-width: 250px;
+}
+
+img {
+  display: block;
+  border: 0;
+  width: 100%;
+  height: auto;
 }
