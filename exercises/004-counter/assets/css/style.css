@@ -26,3 +26,8 @@ html {
 .counter {
   font-size: 4em;
 }
+
+.counter__section {
+  display: inline-block;
+  width: 70px;
+}
