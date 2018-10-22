@@ -1,6 +1,7 @@
 (function (w) {
 
   let options = {}
+  let interval = null
 
   const getOriginToTarget = (origin, target, unit) => {
     const timeOrigin = origin.getTime()
@@ -83,9 +84,13 @@
     w.dispatchEvent(updateEvent)
   }
 
+  const destroy = () => {
+    clearInterval(interval)
+  }
+
   const init = data => {
     options = data
-    setInterval(update, 1000)
+    interval = setInterval(update, 1000)
     update()
   }
 
@@ -93,6 +98,7 @@
     init,
     calculate,
     print,
+    destroy,
   }
 
 })(window)
