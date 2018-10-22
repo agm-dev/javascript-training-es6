@@ -17,3 +17,12 @@ html {
   text-align: center;
   font-family: 'RedDeadRedemption'
 }
+
+.page-title {
+  margin-top: 50px;
+  font-size: 4em;
+}
+
+.counter {
+  font-size: 4em;
+}
