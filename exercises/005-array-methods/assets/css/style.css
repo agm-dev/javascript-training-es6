@@ -1,0 +1,9 @@
+html {
+  background: #018DED url(http://picsum.photos/1500/1000/?image=938&blur);
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-size: 2em;
+}

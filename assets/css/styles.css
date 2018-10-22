@@ -1,5 +1,6 @@
 :root {
   --background-soft: #EEE;
+  --color: #222;
 }
 
 * {
@@ -38,6 +39,7 @@ body {
 
 a, a:active, a:visited {
   text-decoration: none;
+  color: var(--color);
 }
 
 .exercise-card {
@@ -59,9 +61,13 @@ a, a:active, a:visited {
 
 .exercise-card__title {
   background-color: var(--background-soft);
-  /*padding: 20px;*/
   padding: 1.4em;
   min-width: 250px;
+  color: var(--color);
+}
+
+.exercise-card__number {
+  color: var(--color);
 }
 
 img {
@@ -70,6 +76,8 @@ img {
   width: 100%;
   height: auto;
 }
+
+/* Custom card animation effect */
 
 .card-animation::before, .card-animation::after {
   position: absolute;
