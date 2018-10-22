@@ -24,6 +24,10 @@
       seconds: 'counter__seconds',
       targetText: 'counter__target',
     })
+
+    window.addEventListener('counter-update', function () {
+      console.log('update!')
+    }, false)
   </script>
 </body>
 </html>

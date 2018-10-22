@@ -78,11 +78,15 @@
     if (options.minutes) setValue(minutes, options.minutes)
     if (options.seconds) setValue(seconds, options.seconds)
     if (options.targetText) setValue(options.target, options.targetText)
+
+    const updateEvent = new Event('counter-update')
+    w.dispatchEvent(updateEvent)
   }
 
   const init = data => {
     options = data
     setInterval(update, 1000)
+    update()
   }
 
   w.counter = {
