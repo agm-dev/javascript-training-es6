@@ -1,0 +1,15 @@
+html {
+  background: #018DED url(https://picsum.photos/1500/1000/?image=1048&blur);
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-size: 2em;
+}
+
+p {
+  background: rgba(255, 255, 255, 0.5);
+  padding: 2em;
+  margin: 1em;
+}
