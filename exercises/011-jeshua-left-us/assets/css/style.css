@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'sad';
+  src: url('../fonts/inside_out.otf');
+}
+
+html {
+  text-align: center;
+  font-family: 'sad';
+  color: #222;
+  text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
+}
+
+.main {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 0;
+}
+
+.main::before {
+  content: '';
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+  display: block;
+  background: url('../img/background.jpg');
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  -webkit-filter: blur(7px);
+  -moz-filter: blur(7px);
+  -o-filter: blur(7px);
+  -ms-filter: blur(7px);
+  filter: blur(7px);
+}
+
+.page-title {
+  margin-top: 50px;
+  font-size: 4em;
+}
+
+.counter {
+  font-size: 4em;
+}
+
+.counter__section {
+  display: inline-block;
+  min-width: 70px;
+}

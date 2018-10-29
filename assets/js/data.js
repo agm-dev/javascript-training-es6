@@ -49,4 +49,9 @@ const exercisesData = [
     link: 'exercises/010-multi-checkboxes/index.html',
     img: 'assets/img/10-multi-checkboxes.jpg',
   },
+  {
+    title: 'Jeshua Left Us',
+    link: 'exercises/011-jeshua-left-us/index.html',
+    img: 'assets/img/11-jeshua-left-us.jpg'
+  },
 ]
