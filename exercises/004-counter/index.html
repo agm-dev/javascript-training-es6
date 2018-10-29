@@ -14,7 +14,7 @@
     <span class="counter__days counter__section">00</span>:<span class="counter__hours counter__section">00</span>:<span class="counter__minutes counter__section">00</span>:<span class="counter__seconds counter__section">00</span>
   </div>
 
-  <script type="text/javascript" src="assets/js/counter.js"></script>
+  <script type="text/javascript" src="https://unpkg.com/jscounter"></script>
   <script>
     counter.init({
       target: '2018-10-26 00:00:00',
@@ -23,6 +23,7 @@
       minutes: 'counter__minutes',
       seconds: 'counter__seconds',
       targetText: 'counter__target',
+      intl: 'es-ES',
     })
 
     window.addEventListener('counter-update', function () {
