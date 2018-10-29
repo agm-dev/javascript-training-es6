@@ -53,7 +53,6 @@ a, a:active, a:visited {
   background-color: var(--background-soft);
   left: 10px;
   top: 10px;
-  width: 35px;
   height: 35px;
   border-radius: 25%;
   padding: 6px 13px;

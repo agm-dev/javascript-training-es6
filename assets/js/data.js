@@ -44,4 +44,9 @@ const exercisesData = [
     link: 'exercises/009-canvas-drawer/index.html',
     img: 'assets/img/09-canvas-drawer.jpg'
   },
+  {
+    title: 'Multiple Checkboxes',
+    link: 'exercises/010-multi-checkboxes/index.html',
+    img: 'assets/img/10-multi-checkboxes.jpg',
+  },
 ]
