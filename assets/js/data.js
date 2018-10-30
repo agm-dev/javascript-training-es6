@@ -54,4 +54,9 @@ const exercisesData = [
     link: 'exercises/011-jeshua-left-us/index.html',
     img: 'assets/img/11-jeshua-left-us.jpg'
   },
+  {
+    title: 'Secret Stories',
+    link: 'exercises/012-secret-stories/index.html',
+    img: 'assets/img/12-secret-stories.jpg'
+  },
 ]
