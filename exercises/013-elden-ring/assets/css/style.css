@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "EldenRing";
+  src: url("../fonts/edr-font.otf");
+}
+
+html {
+  background: #e22 url("../img/edr.jpg");
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+.page-title {
+  margin-top: 50px;
+  font-size: 6em;
+  color: #253737;
+  font-family: "EldenRing";
+}
+
+.counter {
+  font-size: 6em;
+  color: #253737;
+  font-family: monospace;
+}
+
+.counter__section {
+  display: inline-block;
+  min-width: 70px;
+}
+
+@media (max-width: 850px) {
+  .page-title {
+    font-size: 3em;
+  }
+  .counter {
+    font-size: 2em;
+  }
+}
